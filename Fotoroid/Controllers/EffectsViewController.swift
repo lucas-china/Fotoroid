@@ -42,6 +42,11 @@ class EffectsViewController: UIViewController {
     func showLoading(_ show: Bool) {
         loadingView.isHidden = !show
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let finalVC = segue.destination as? FinalViewController else { return }
+        finalVC.image = photoImageView.image
+    }
 }
 
 extension EffectsViewController: UICollectionViewDelegate, UICollectionViewDataSource {
