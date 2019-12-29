@@ -15,6 +15,8 @@
 		6DB0A2C2236F926300182082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB0A2C0236F926300182082 /* LaunchScreen.storyboard */; };
 		6DB0A2CA236F979A00182082 /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB0A2C9236F979A00182082 /* EffectsViewController.swift */; };
 		6DB0A2CC236F97B700182082 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB0A2CB236F97B700182082 /* FinalViewController.swift */; };
+		6DFCBB1223B9211D00BAD446 /* EffectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFCBB1123B9211D00BAD446 /* EffectCollectionViewCell.swift */; };
+		6DFDE0AC23AB029600D65F92 /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDE0AB23AB029600D65F92 /* FilterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6DB0A2C3236F926300182082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DB0A2C9236F979A00182082 /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
 		6DB0A2CB236F97B700182082 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		6DFCBB1123B9211D00BAD446 /* EffectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EffectCollectionViewCell.swift; path = Fotoroid/Cells/EffectCollectionViewCell.swift; sourceTree = "<group>"; };
+		6DFDE0AB23AB029600D65F92 /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FilterManager.swift; path = Fotoroid/Controllers/FilterManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		6DB0A2A9236F925E00182082 = {
 			isa = PBXGroup;
 			children = (
+				6DFCBB1123B9211D00BAD446 /* EffectCollectionViewCell.swift */,
+				6DFDE0AB23AB029600D65F92 /* FilterManager.swift */,
 				6DB0A2B4236F925E00182082 /* Fotoroid */,
 				6DB0A2B3236F925E00182082 /* Products */,
 			);
@@ -173,6 +179,8 @@
 				6DB0A2CA236F979A00182082 /* EffectsViewController.swift in Sources */,
 				6DB0A2B6236F925E00182082 /* AppDelegate.swift in Sources */,
 				6DB0A2B8236F925E00182082 /* SceneDelegate.swift in Sources */,
+				6DFDE0AC23AB029600D65F92 /* FilterManager.swift in Sources */,
+				6DFCBB1223B9211D00BAD446 /* EffectCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
